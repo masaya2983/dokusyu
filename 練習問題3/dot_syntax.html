@@ -1,0 +1,29 @@
+let person = {
+    name: { first: "太郎", last"独習"},─ ─ ─ オブジェクト の name プロパティ に オブジェクト を 設定
+
+    age: 18
+};
+
+console.log(person.age);─ ─ ─ age プロパティ の 値 の 取得
+
+> 18
+
+console.log( person.name.last);
+─ ─ ─ name プロパティ に 設定 さ れ た オブジェクト の last プロパティ の 値 の 取得
+
+> 独習
+
+person.name.last = "次郎";─ ─ ─ last プロパティ の 値 の 変更
+
+person.gender = "男";─ ─ ─ gender プロパティ と 値 の 追加
+
+person.family = { wife: "花子", child:"三郎"};の オブジェクト を 追加 
+
+console.log( person. family. wife ); ─ ─ ─ 追加 し た オブジェクト の プロパティ を 確認
+
+> 花子 
+ 
+ console.log( person ); ─ ─ ─ オブジェクト の 中身 を 確認 
+ 
+ > { age: 18, family: { wife: "花子", child: "三郎" }, gender: "男", name: { first: "太郎", last: "次郎" } }
+
