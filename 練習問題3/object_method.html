@@ -1,0 +1,17 @@
+let person = {
+    hell: function() {console.log("こんにちは"); }
+};
+person.hello();
+>こんにちは
+
+person.bye = function() {
+    console.log("さよなら   ")}
+    person.bye();
+> さよなら
+
+person.hello = function() {
+    console.log("Hello");} ─ ─ ─ メソッド は 上書き する こと も 可能
+
+person.hello();
+
+>Hello
