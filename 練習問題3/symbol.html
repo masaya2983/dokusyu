@@ -1,0 +1,19 @@
+let mySymbl1 = Symbol();─ ─ ─ ある Symbol の 値
+
+let mySymbl2 = Symbol();─ ─ ─ 別 の Symbol の 値
+
+const obj = {
+    [mySymll]:"値1",─ ─ ─ シンボル を キー に プロパティ を 定義
+
+    [mySymbl2]() {console.log("こんにちは");}─ ─ ─ シンボル を キー に メソッド を 定義
+
+};
+
+console.log(obj[ mySybll1]);─ ─ ─ シンボル を キー に 値 を 取得
+
+> 値1
+
+obj[ mySybl2]();─ ─ ─ シンボル を キー に メソッド を 実行
+
+> こんにちは
+
